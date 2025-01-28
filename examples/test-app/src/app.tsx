@@ -1,6 +1,5 @@
 import { SignalArray } from "signal-utils/array";
-import { For,  Show } from "signals-framework/control-flow";
-import { createEffect, onCleanup } from "signals-framework/render";
+import { For,  Show, createEffect, onCleanup } from "signals-framework";
 
 import styles from './app.module.css';
 
