@@ -9,5 +9,7 @@ export function jsx(element: JSX.Element['element'], props: object, key?: string
   return { element, props };
 }
 
+export { jsx as jsxs };
+
 export { fragment as Fragment } from './symbols';
 
